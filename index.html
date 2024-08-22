@@ -3,9 +3,367 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=s, initial-scale=1.0">
-    <title>Document</title>
+    <title> Legal law soutions </title>
+    <!-- daisy ui+tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- js -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'btn-color':'#B68C5A',
+                'title-color':'#414040',
+                'contact-color':'#F3F3F3',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+      <style>
+        .font-EB-Garamond{
+          font-family: "EB Garamond", serif;
+        }
+      </style>
+      <!-- font awsome  -->
+      <script src="https://kit.fontawesome.com/01deae64a9.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1>hi</h1>
+<body class="font-EB-Garamond container mx-auto">
+    <header class="my-4 w-4/5 mx-auto">
+            <nav class="px-6">
+              <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Services <i class="fa-solid fa-greater-than" style="color: #474545;"></i></a></li>
+                      <li><a>Cases <i class="fa-solid fa-greater-than" style="color: #474545;"></i></a></li>
+                      <li><a>Blog <i class="fa-solid fa-greater-than" style="color: #474545;"></i></a></li>
+                      <li><a>Contact us <i class="fa-solid fa-greater-than" style="color: #474545;"></i></a></li>
+                    </ul>
+                  </div>
+                  <img src="images/logo2.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-gray-500 text-lg">
+                    <li><a>Home</a></li>
+                      <li><a>Services <i class="fa-solid fa-greater-than" style="color:gray-500;"></i></a></li>
+                      <li><a>Cases <i class="fa-solid fa-greater-than" style="color: gray-500;"></i></a></li>
+                      <li><a>Blog <i class="fa-solid fa-greater-than" style="color: gray-500;"></i></a></li>
+                      <li><a>Contact us <i class="fa-solid fa-greater-than" style="color: gray-500;"></i></a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-btn-color text-white font-bold text-xl">Free Consultation</a>
+                </div>
+              </div>
+            </nav>
+    </header>
+    <main>
+      <!-- banner  -->
+      <section class="mt-12 w-4/5 mx-auto">
+        <div class="bg-gradient-to-b from-black-500 to-black-500 h-auto" style=" background-image:url(images/banner.png); background-size:cover ; ">
+        <div class="hero-overlay "></div>
+        <div class="hero-content text-neutral-content text-center">
+          <div class=" mx-auto py-5 md:py-24 w-full md:w-6/12">
+              <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+              <p class="mb-5 text-xs">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration  in some form, by injected humour.
+              </p>
+              <div class="flex space-x-4 items-center justify-center">
+                <input
+                type="text"
+                placeholder="Search Your Service"
+                class="input input-bordered input-error border-none w-full max-w-xs " />
+                <button class="btn btn-primary bg-btn-color border-none font-semibold text-xl">Search</button>
+              </div>    
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- the legal practice  -->
+      <section class="mt-24 mb-24 w-3/4 mx-auto">
+        <div class="w-1/2 mx-auto">
+          <h3 class="text-2xl font-semibold text-center mb-3 text-title-color">The Legal Practice Area</h3>
+          <p class="text-sm text-gray-600 text-center mb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 mt-5 ">
+          <!-- card 1 -->
+          <div class="card bg-base-100 w-auto border rounded-none px-8 py-8 shadow-sm bg-gradient-to-t from-gray-50">
+            <figure class="">
+              <img
+                src="images/business.png"
+                alt="business"
+                class=" " />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-title-color">Business Law</h2>
+              <p class="text-title-color text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="card-actions mt-4">
+                <i class="fa-solid fa-circle-arrow-right" style="color: #b68c5a;"></i>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-base-100 w-auto border rounded-none shadow-sm px-8 py-8 bg-gradient-to-t from-gray-50">
+            <figure class="">
+              <img
+                src="images/criminal.png"
+                alt="business"
+                class=" " />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-title-color">Criminal Law</h2>
+              <p class="text-title-color text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="card-actions mt-4">
+                <i class="fa-solid fa-circle-arrow-right" style="color: #b68c5a;"></i>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-base-100 w-auto border rounded-none shadow-sm px-8 py-8 bg-gradient-to-t from-gray-50">
+            <figure class="">
+              <img
+                src="images/child.png"
+                alt="business"
+                class=" " />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-title-color">Child Support</h2>
+              <p class="text-title-color text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="card-actions mt-4">
+                <i class="fa-solid fa-circle-arrow-right" style="color: #b68c5a;"></i>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card bg-base-100 w-auto border rounded-none shadow-sm px-8 py-8 bg-gradient-to-t from-gray-50">
+            <figure class="">
+              <img
+                src="images/education.png"
+                alt="business"
+                class=" " />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-title-color">Educational Law</h2>
+              <p class="text-title-color text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="card-actions mt-4">
+                <i class="fa-solid fa-circle-arrow-right" style="color: #b68c5a;"></i>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="card bg-base-100 w-auto border rounded-none shadow-sm px-8 py-8 bg-gradient-to-t from-gray-50">
+            <figure class="">
+              <img
+                src="images/divorce.png"
+                alt="business"
+                class=" " />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-title-color">Divorce Law</h2>
+              <p class="text-title-color text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="card-actions mt-4">
+                <i class="fa-solid fa-circle-arrow-right" style="color: #b68c5a;"></i>
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="card bg-base-100 w-auto border rounded-none shadow-sm px-8 py-8 bg-gradient-to-t from-gray-50">
+            <figure class="">
+              <img
+                src="images/Tax.png"
+                alt="business"
+                class=" " />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-title-color">Tax Law</h2>
+              <p class="text-title-color text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="card-actions mt-4">
+                <i class="fa-solid fa-circle-arrow-right" style="color: #b68c5a;"></i>
+              </div>
+            </div>
+          </div>
+          
+         
+        </div>
+      </section>
+
+
+      <!-- our client  -->
+      <section class="mt-24 mb-24 w-4/5 mx-auto">
+        <div class="w-1/2 mx-auto">
+          <h3 class="text-2xl font-semibold text-center mb-3 text-title-color">What Our Client Say</h3>
+          <p class="text-sm text-gray-600 text-center mb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+        <div
+        class="hero h-auto w-auto bg-gradient-to-t from-blue-200 py-16"
+        style="background-image: url(images/banner.png);">
+        <div class="hero-overlay bg-opacity-50"></div>
+        <div class="hero-content text-neutral-content text-center">
+          <div class="max-w-md">
+            <div class="w-16 h-18 mx-auto" >
+              <img  class=" border-2 rounded-full padding-5" src="images/image.jpg" alt="">
+            </div >
+            <h5 class="text-3xl font-bold text-white my-5">Shahida ima </h5>
+            <span class="text-gray-300 text-xl mb-3">UI Designer</span>
+            <p class="mb-5">
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.assumenda excepturi exercitationem
+              quasi. In deleniti eaque aut repudiandae et a id nisi.
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+      
+           <!-- frequently ask questio sectio  -->
+           <section class=" my-22 w-4/5 mx-auto">
+            <div class="w-1/2 mx-auto">
+              <h3 class="text-2xl font-semibold text-center mb-3 text-title-color">Frequently asked any question</h3>
+              <p class="text-sm text-gray-600 text-center mb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="hero w-full">
+              <div class="hero-content flex-col lg:flex-row justify-between items-center">
+                <div class="space-y-5 flex-1">
+                  <div class="collapse collapse-arrow bg-base-200 border border-blue-200">
+                    <input type="radio" name="my-accordion-2" checked="checked"/>
+                    <div class="collapse-title text-xl font-semibold">1. Are application fee waivers available?</div>
+                    <div class="collapse-content text-lg">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow bg-base-200 border border-blue-200">
+                    <input type="radio" name="my-accordion-2" checked="checked"/>
+                    <div class="collapse-title text-xl font-semibold">2. Are application fee waivers available?</div>
+                    <div class="collapse-content text-lg">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow bg-base-200 border border-blue-200">
+                    <input type="radio" name="my-accordion-2" checked="checked"/>
+                    <div class="collapse-title text-xl font-semibold">3. My bike has been in storage is it safe to ride?</div>
+                    <div class="collapse-content text-lg">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow bg-base-200 border border-blue-200">
+                    <input type="radio" name="my-accordion-2" checked="checked"/>
+                    <div class="collapse-title text-xl font-semibold">4. What rules should I follow when riding my bike?</div>
+                    <div class="collapse-content text-lg">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="w-full flex-1">
+                  <img
+                  src="images/faq.png"
+                  class="rounded-lg w-[500px] h-[500px] "/>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- contact us  -->
+           <section class="w-4/5 mx-auto">
+            <div class="w-1/2 mx-auto mb-10">
+              <h3 class="text-2xl font-semibold text-center mb-3 text-title-color">Contact With Us</h3>
+              <p class="text-sm text-gray-600 text-center mb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="flex ">
+                <div class="flex-1 grid grid-cols-2">
+                      <!-- card 1 -->
+                      <div class="card bg-base-100 w-auto border rounded-none px-8 py-8 shadow-sm bg-contact-color">
+                     <figure class="">
+                     <img
+                      src="images/address.png"
+                      alt="business"
+                      class=" " />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                    <h2 class="card-title text-title-color">Address</h2>
+                    <p class="text-title-color text-sm">A108 Adam Street, <br>
+                      New York, NY 535022</p>
+                  </div>
+                      </div>
+                      <!-- card 2 -->
+                      <div class="card bg-base-100 w-auto border rounded-none px-8 py-8 shadow-sm bg-contact-color">
+                    <figure class="">
+                    <img
+                      src="images/call.png"
+                      alt="business"
+                      class=" " />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                    <h2 class="card-title text-title-color">Call US</h2>
+                    <p class="text-title-color text-sm">+88 01750 00 00 00 <br>
+                      +88 01750 00 00 00</p>
+                  </div>
+                      </div>
+                      <!-- card 3 -->
+                      <div class="card bg-base-100 w-auto border rounded-none px-8 py-8 shadow-sm bg-contact-color">
+                    <figure class="">
+                    <img
+                      src="images/email.png"
+                      alt="business"
+                      class=" " />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                    <h2 class="card-title text-title-color">Email US</h2>
+                    <p class="text-title-color text-sm">info@gmail.com <br>
+                      info@gmail.com</p>
+                  </div>
+                      </div>
+                      <!-- card 1 -->
+                      <div class="card bg-base-100 w-auto border rounded-none px-8 py-8 shadow-sm bg-contact-color">
+                    <figure class="">
+                    <img
+                      src="images/time.png"
+                      alt="business"
+                      class=" " />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                    <h2 class="card-title text-title-color">Working Hours</h2>
+                    <p class="text-title-color text-sm">Mon-Fri: 9AM to 5PM <br>
+                      Sunday: 9AM to 1 PM</p>
+                  </div>
+                      </div>
+                </div>
+                <div class="flex-1">
+
+                </div>
+            </div>
+           </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
